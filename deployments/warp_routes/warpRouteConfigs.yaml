@@ -5933,7 +5933,6 @@ USDC/bsc-kasplex:
       decimals: 18
       logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
-      scale: 1
       standard: EvmHypSynthetic
       symbol: USDC
     - addressOrDenom: "0xe04012Ae5f6b1550E20aB63bE29807003e7a4Cd7"
@@ -5945,7 +5944,6 @@ USDC/bsc-kasplex:
       decimals: 18
       logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
-      scale: 1
       standard: EvmHypCollateral
       symbol: USDC
     - addressOrDenom: "0x3bFdbB6bf711f992652658A4135C5207E49c47cC"
