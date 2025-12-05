@@ -1,0 +1,20 @@
+    tokens:
+      - chainName: kasplextestnet
+        standard: EvmHypCollateral
+        decimals: 18
+        logoURI: /deployments/warp_routes/tZEAL/logo.svg
+        symbol: tZEAL
+        name: test ZEAL
+        addressOrDenom: "0xB6F08394a2f570C5a98F4D5a787ec263Ddfad2de"
+        collateralAddressOrDenom: "0xD6411bc52c8CbD192477233F2DB211cB96bc3504"
+        connections:
+          - token: ethereum|bsctestnet|0x85c91B38bd5E3952f9B97748eeA87De8c2d3D864
+      - chainName: bsctestnet
+        standard: EvmHypSynthetic
+        decimals: 18
+        logoURI: /deployments/warp_routes/tZEAL/logo.svg
+        symbol: tZEAL
+        name: test ZEAL
+        addressOrDenom: "0x85c91B38bd5E3952f9B97748eeA87De8c2d3D864"
+        connections:
+          - token: ethereum|kasplextestnet|0xB6F08394a2f570C5a98F4D5a787ec263Ddfad2de

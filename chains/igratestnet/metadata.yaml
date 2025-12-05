@@ -1,0 +1,25 @@
+blockExplorers:
+  - apiUrl: https://explorer.caravel.igralabs.com/api
+    family: blockscout
+    name: Igra testnet explorer
+    url: https://explorer.caravel.igralabs.com/
+blocks:
+  confirmations: 5
+  estimateBlockTime: 3
+  reorgPeriod: 1
+chainId: 19416
+displayName: Igra Testnet
+domainId: 19416
+isTestnet: true
+name: igratestnet
+nativeToken:
+  decimals: 18
+  name: KASPA
+  symbol: iKAS
+protocol: ethereum
+rpcUrls:
+  - http: https://caravel.igralabs.com:8545
+technicalStack: other
+transactionOverrides:
+  maxFeePerGas: 2000000000000
+  maxPriorityFeePerGas: 2000000000000

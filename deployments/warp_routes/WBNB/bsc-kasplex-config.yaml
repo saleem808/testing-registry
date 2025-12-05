@@ -1,0 +1,20 @@
+tokens:
+  - chainName: kasplex
+    standard: EvmHypSynthetic
+    decimals: 18
+    logoURI: /deployments/warp_routes/WBNB/logo.svg
+    symbol: WBNB
+    name: Wrapped BNB
+    addressOrDenom: "0x3bFdbB6bf711f992652658A4135C5207E49c47cC"
+    connections:
+      - token: ethereum|bsc|0xa23F30871788bc8f6a52d3AD70c4299438CB9559
+  - chainName: bsc
+    standard: EvmHypCollateral
+    decimals: 18
+    logoURI: /deployments/warp_routes/WBNB/logo.svg
+    symbol: WBNB
+    name: Wrapped BNB
+    addressOrDenom: "0xa23F30871788bc8f6a52d3AD70c4299438CB9559"
+    collateralAddressOrDenom: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+    connections:
+      - token: ethereum|kasplex|0x3bFdbB6bf711f992652658A4135C5207E49c47cC

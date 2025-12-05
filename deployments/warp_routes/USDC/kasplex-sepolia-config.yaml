@@ -1,0 +1,20 @@
+tokens:
+  - chainName: kasplextestnet
+    standard: EvmHypCollateral
+    decimals: 6
+    symbol: USDC
+    name: USD Coin
+    addressOrDenom: "0xc4Ba6A7Ed01025cBB624C1b1761027914A82EAD9"
+    collateralAddressOrDenom: "0x7b225c27d66949D4f5541f118F7B948b0fc2aB51"
+    connections:
+      - token: ethereum|basesepolia|0xa4d5C0851301bbF19dFfd97fC58C1Ff7ab27Aea8
+    logoURI: /deployments/warp_routes/USDC/logo.svg
+  - chainName: basesepolia
+    standard: EvmHypSynthetic
+    decimals: 6
+    symbol: USDC
+    name: USD Coin
+    addressOrDenom: "0xa4d5C0851301bbF19dFfd97fC58C1Ff7ab27Aea8"
+    connections:
+      - token: ethereum|kasplextestnet|0xc4Ba6A7Ed01025cBB624C1b1761027914A82EAD9
+    logoURI: /deployments/warp_routes/USDC/logo.svg

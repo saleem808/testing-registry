@@ -1,0 +1,20 @@
+tokens:
+  - chainName: igratestnet
+    standard: EvmHypSynthetic
+    decimals: 18
+    symbol: USDT
+    name: USDT
+    addressOrDenom: "0x32409439655a82A033C565ce713A800Ce50abc30"
+    connections:
+      - token: ethereum|basesepolia|0x22584487D5a9F8F906548a215efCb03Ff0D726b1
+    logoURI: /deployments/warp_routes/USDT/logo.svg
+  - chainName: basesepolia
+    standard: EvmHypCollateral
+    decimals: 18
+    symbol: USDT
+    name: USDT
+    addressOrDenom: "0x22584487D5a9F8F906548a215efCb03Ff0D726b1"
+    collateralAddressOrDenom: "0x5365933D533b127aEbF845777e6fD6AE2A942f58"
+    connections:
+      - token: ethereum|igratestnet|0x32409439655a82A033C565ce713A800Ce50abc30
+    logoURI: /deployments/warp_routes/USDT/logo.svg

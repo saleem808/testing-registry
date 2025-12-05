@@ -1,0 +1,33 @@
+defaultHook:
+  type: merkleTreeHook
+defaultIsm:
+  relayer: "0xae44946077d5c32ffbdccf97dddda689904caaaa"
+  type: trustedRelayerIsm
+owner: "0xae44946077d5c32ffbdccf97dddda689904caaaa"
+proxyAdmin:
+  owner: "0xae44946077d5c32ffbdccf97dddda689904caaaa"
+requiredHook:
+  hooks:
+    - beneficiary: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
+      maxProtocolFee: "1000000000000000000"
+      owner: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
+      protocolFee: "0"
+      type: protocolFee
+    - beneficiary: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
+      oracleConfig:
+        bsc:
+          gasPrice: "50000000"
+          tokenDecimals: 18
+          tokenExchangeRate: "3201495446"
+        kasplex:
+          gasPrice: "2001000000000"
+          tokenDecimals: 18
+          tokenExchangeRate: "200353"
+      oracleKey: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
+      overhead:
+        bsc: 75000
+        kasplex: 75000
+      owner: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
+      type: interchainGasPaymaster
+  type: aggregationHook
+

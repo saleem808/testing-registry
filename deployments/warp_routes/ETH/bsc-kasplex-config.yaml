@@ -1,0 +1,20 @@
+tokens:
+  - chainName: kasplex
+    standard: EvmHypSynthetic
+    decimals: 18
+    symbol: ETH
+    name: Ethereum Token
+    addressOrDenom: "0xFe85e2621944a77Da14aD3Fe4414899aE56AC81F"
+    connections:
+      - token: ethereum|bsc|0x96111Fb8219B3374b640a5392faBef57aE4F11Cd
+    logoURI: /deployments/warp_routes/ETH/logo.svg
+  - chainName: bsc
+    standard: EvmHypCollateral
+    decimals: 18
+    symbol: ETH
+    name: Ethereum Token
+    addressOrDenom: "0x96111Fb8219B3374b640a5392faBef57aE4F11Cd"
+    collateralAddressOrDenom: "0x2170Ed0880ac9A755fd29B2688956BD959F933F8"
+    connections:
+      - token: ethereum|kasplex|0xFe85e2621944a77Da14aD3Fe4414899aE56AC81F
+    logoURI: /deployments/warp_routes/ETH/logo.svg

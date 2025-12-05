@@ -1,0 +1,20 @@
+tokens:
+  - chainName: kasplextestnet
+    standard: EvmHypCollateral
+    decimals: 18
+    logoURI: /deployments/warp_routes/KFC/logo.svg
+    symbol: KFC
+    name: Kaspa Finance
+    addressOrDenom: "0x69eE87Aaef133A34ACDabb54366C26c7eF3F03FF"
+    collateralAddressOrDenom: "0xf87e587AB945F7B111329a6ace6dc497D34f098B"
+    connections:
+      - token: ethereum|bsctestnet|0x18601007442a7273d4795e7FcfFecA6e74149Db0
+  - chainName: bsctestnet
+    standard: EvmHypSynthetic
+    decimals: 18
+    logoURI: /deployments/warp_routes/KFC/logo.svg
+    symbol: KFC
+    name: Kaspa Finance
+    addressOrDenom: "0x18601007442a7273d4795e7FcfFecA6e74149Db0"
+    connections:
+      - token: ethereum|kasplextestnet|0x69eE87Aaef133A34ACDabb54366C26c7eF3F03FF

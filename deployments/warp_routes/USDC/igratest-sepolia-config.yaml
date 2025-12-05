@@ -1,0 +1,20 @@
+tokens:
+  - chainName: igratestnet
+    standard: EvmHypSynthetic
+    decimals: 18
+    symbol: USDC
+    name: USDC
+    addressOrDenom: "0x2a96B7c846cA843381a8b86a52C0817EDf4A4Fad"
+    connections:
+      - token: ethereum|sepolia|0x296Bff5A5c97B9a8243C612Dd9347b39818aA0ef
+    logoURI: /deployments/warp_routes/USDC/logo.svg
+  - chainName: sepolia
+    standard: EvmHypCollateral
+    decimals: 18
+    symbol: USDC
+    name: USDC
+    addressOrDenom: "0x296Bff5A5c97B9a8243C612Dd9347b39818aA0ef"
+    collateralAddressOrDenom: "0xa4d5C0851301bbF19dFfd97fC58C1Ff7ab27Aea8"
+    connections:
+      - token: ethereum|igratestnet|0x2a96B7c846cA843381a8b86a52C0817EDf4A4Fad
+    logoURI: /deployments/warp_routes/USDC/logo.svg
