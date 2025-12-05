@@ -5955,7 +5955,7 @@ USDC/bsc-kasplex:
       decimals: 6
       logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
-      scale: 1000000
+      scale: 6
       standard: EvmHypCollateral
       symbol: USDC
 USDC/bsc-polygon-prom:
