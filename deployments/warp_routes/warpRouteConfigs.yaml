@@ -5923,6 +5923,27 @@ USDC/base-optimism:
       name: USD Coin
       standard: EvmHypSynthetic
       symbol: USDC
+USDC/bsc-kasplex:
+  tokens:
+    - addressOrDenom: "0x001cfbd182c74107B70bfcbbCD709E1d73cde0f2"
+      chainName: kasplex
+      connections:
+        - token: ethereum|bsc|0xe04012Ae5f6b1550E20aB63bE29807003e7a4Cd7
+      decimals: 18
+      logoURI: /deployments/warp_routes/USDC/logo.svg
+      name: USD Coin
+      standard: EvmHypSynthetic
+      symbol: USDC
+    - addressOrDenom: "0xe04012Ae5f6b1550E20aB63bE29807003e7a4Cd7"
+      chainName: bsc
+      collateralAddressOrDenom: "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+      connections:
+        - token: ethereum|kasplex|0x001cfbd182c74107B70bfcbbCD709E1d73cde0f2
+      decimals: 18
+      logoURI: /deployments/warp_routes/USDC/logo.svg
+      name: USD Coin
+      standard: EvmHypCollateral
+      symbol: USDC
 USDC/bsc-polygon-prom:
   tokens:
     - addressOrDenom: "0x647eeD57dFDd335f9B6f2a9DbDFe09f166b1AdaC"
