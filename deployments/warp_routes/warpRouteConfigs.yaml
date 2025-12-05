@@ -5929,6 +5929,7 @@ USDC/bsc-kasplex:
       chainName: kasplex
       connections:
         - token: ethereum|bsc|0xe04012Ae5f6b1550E20aB63bE29807003e7a4Cd7
+        - token: ethereum|base|0xb50f23D4eA78a7933415e29368B53Cc4330c9bC0
       decimals: 18
       logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
@@ -5939,7 +5940,19 @@ USDC/bsc-kasplex:
       collateralAddressOrDenom: "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
       connections:
         - token: ethereum|kasplex|0x001cfbd182c74107B70bfcbbCD709E1d73cde0f2
+        - token: ethereum|base|0xb50f23D4eA78a7933415e29368B53Cc4330c9bC0
       decimals: 18
+      logoURI: /deployments/warp_routes/USDC/logo.svg
+      name: USD Coin
+      standard: EvmHypCollateral
+      symbol: USDC
+    - addressOrDenom: "0xb50f23D4eA78a7933415e29368B53Cc4330c9bC0"
+      chainName: base
+      collateralAddressOrDenom: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      connections:
+        - token: ethereum|kasplex|0x001cfbd182c74107B70bfcbbCD709E1d73cde0f2
+        - token: ethereum|bsc|0xe04012Ae5f6b1550E20aB63bE29807003e7a4Cd7
+      decimals: 6
       logoURI: /deployments/warp_routes/USDC/logo.svg
       name: USD Coin
       standard: EvmHypCollateral
