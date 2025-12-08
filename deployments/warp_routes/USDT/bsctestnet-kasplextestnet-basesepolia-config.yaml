@@ -1,4 +1,5 @@
-- chainName: kasplextestnet
+tokens:
+  - chainName: kasplextestnet
     standard: EvmHypSynthetic
     decimals: 18
     scale: 1
