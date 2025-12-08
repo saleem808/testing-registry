@@ -7776,7 +7776,6 @@ USDT/bsctestnet-kasplextestnet-basesepolia:
       decimals: 18
       logoURI: /deployments/warp_routes/USDT/logo.svg
       name: Tether USD
-      scale: 1
       standard: EvmHypSynthetic
       symbol: USDT
     - addressOrDenom: "0xad71Cf5b27Cc93843E88ba2871e92C28F1FF08D4"
@@ -7788,7 +7787,6 @@ USDT/bsctestnet-kasplextestnet-basesepolia:
       decimals: 6
       logoURI: /deployments/warp_routes/USDT/logo.svg
       name: Tether USD
-      scale: 1000000000000
       standard: EvmHypCollateral
       symbol: USDT
     - addressOrDenom: "0xEe9DAAE997518C778d24C3D80B92A9CdF198b217"
@@ -7800,7 +7798,6 @@ USDT/bsctestnet-kasplextestnet-basesepolia:
       decimals: 18
       logoURI: /deployments/warp_routes/USDT/logo.svg
       name: Tether USD
-      scale: 1
       standard: EvmHypCollateral
       symbol: USDT
 USDT/eclipsemainnet-ethereum-solanamainnet:
