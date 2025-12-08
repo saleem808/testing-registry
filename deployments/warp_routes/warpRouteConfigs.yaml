@@ -8083,7 +8083,6 @@ USDT/kasplextestnet:
       decimals: 6
       logoURI: /deployments/warp_routes/USDT/logo.svg
       name: Tether USD
-      scale: 1000000000000
       standard: EvmHypCollateral
       symbol: USDT
     - addressOrDenom: "0xEe9DAAE997518C778d24C3D80B92A9CdF198b217"
