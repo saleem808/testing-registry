@@ -1,0 +1,54 @@
+basesepolia:
+  type: collateral
+  token: '0xB6F08394a2f570C5a98F4D5a787ec263Ddfad2de'
+  decimals: 6
+  scale: 1000000000000
+  owner: '0x1900c5b15268f13bb4e462f54f5edd6834c47348'
+  interchainSecurityModule:
+    type: staticAggregationIsm
+    modules:
+      - type: trustedRelayerIsm
+        relayer: '0x1900c5b15268f13bb4e462f54f5edd6834c47348'
+      - owner: '0x1900c5b15268f13bb4e462f54f5edd6834c47348'
+        type: defaultFallbackRoutingIsm
+        domains: {}
+    threshold: 1
+  proxyAdmin:
+    owner: '0x1900c5B15268F13BB4e462f54F5EDD6834C47348'
+    address: '0xa2397c416E0188733BF96F8ed7F87F2526D3B221'
+bsctestnet:
+  type: collateral
+  token: '0xb97aDD318e75F98972f95323ce0A035E31784c4E'
+  decimals: 18
+  scale: 1
+  owner: '0x1900c5b15268f13bb4e462f54f5edd6834c47348'
+  interchainSecurityModule:
+    type: staticAggregationIsm
+    modules:
+      - type: trustedRelayerIsm
+        relayer: '0x1900c5b15268f13bb4e462f54f5edd6834c47348'
+      - owner: '0x1900c5b15268f13bb4e462f54f5edd6834c47348'
+        type: defaultFallbackRoutingIsm
+        domains: {}
+    threshold: 1
+  proxyAdmin:
+    owner: '0xEF8c1c2f20fd11d0844b6b0B40EB85D1364e7384'
+    address: '0x6B02A17d833830845D435cfb94568298AEa91d89'
+kasplextestnet:
+  isNft: false
+  type: synthetic
+  decimals: 18
+  scale: 1
+  owner: '0x1900c5b15268f13bb4e462f54f5edd6834c47348'
+  interchainSecurityModule:
+    type: staticAggregationIsm
+    modules:
+      - type: trustedRelayerIsm
+        relayer: '0x1900c5b15268f13bb4e462f54f5edd6834c47348'
+      - owner: '0x1900c5b15268f13bb4e462f54f5edd6834c47348'
+        type: defaultFallbackRoutingIsm
+        domains: {}
+    threshold: 1
+  proxyAdmin:
+    owner: '0x1900c5B15268F13BB4e462f54F5EDD6834C47348'
+    address: '0x778D4965811Db90Cd3e08712de48387e069B5e48'
