@@ -2,6 +2,7 @@ tokens:
   - chainName: kasplextestnet
     standard: EvmHypSynthetic
     decimals: 18
+    scale: 1
     symbol: USDT
     name: Tether USD
     addressOrDenom: "0x62a331a0582FEbb081863F6773b8510A7D71B0a6"
@@ -11,6 +12,7 @@ tokens:
   - chainName: bsctestnet
     standard: EvmHypCollateral
     decimals: 18
+    scale: 1
     symbol: USDT
     name: Tether USD
     addressOrDenom: "0xEe9DAAE997518C778d24C3D80B92A9CdF198b217"
