@@ -23,10 +23,15 @@ requiredHook:
           gasPrice: "2001000000000"
           tokenDecimals: 18
           tokenExchangeRate: "200353"
+        basesepolia:
+          gasPrice: "2001000000000"
+          tokenDecimals: 6
+          tokenExchangeRate: "1000000"
       oracleKey: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
       overhead:
         bsc: 75000
         kasplex: 75000
+        basesepolia: 75000
       owner: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
       type: interchainGasPaymaster
   type: aggregationHook
