@@ -1,6 +1,6 @@
 basesepolia:
   type: collateral
-  token: "0x5365933D533b127aEbF845777e6fD6AE2A942f58"
+  token: "0xB6F08394a2f570C5a98F4D5a787ec263Ddfad2de"
   owner: "0x1900c5b15268f13bb4e462f54f5edd6834c47348"
   interchainSecurityModule:
     type: staticAggregationIsm
