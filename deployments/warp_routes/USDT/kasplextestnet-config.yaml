@@ -12,7 +12,6 @@ tokens:
   - chainName: basesepolia
     standard: EvmHypCollateral
     decimals: 6
-    scale: 1000000000000
     symbol: USDT
     name: Tether USD
     addressOrDenom: "0xad71Cf5b27Cc93843E88ba2871e92C28F1FF08D4"
