@@ -24,7 +24,7 @@ nativeToken:
   symbol: ETH
 protocol: ethereum
 rpcUrls:
+  - http: https://base-sepolia.drpc.org
   - http: https://base-sepolia-rpc.publicnode.com
   - http: https://sepolia.base.org
   - http: https://base-sepolia.gateway.tenderly.co
-  - http: https://base-sepolia.drpc.org

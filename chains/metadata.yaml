@@ -801,10 +801,10 @@ basesepolia:
     symbol: ETH
   protocol: ethereum
   rpcUrls:
+    - http: https://base-sepolia.drpc.org
     - http: https://base-sepolia-rpc.publicnode.com
     - http: https://sepolia.base.org
     - http: https://base-sepolia.gateway.tenderly.co
-    - http: https://base-sepolia.drpc.org
 bepolia:
   availability:
     reasons:
@@ -1154,7 +1154,9 @@ bsctestnet:
     symbol: BNB
   protocol: ethereum
   rpcUrls:
+    - http: https://bsc-testnet-rpc.publicnode.com
     - http: https://bsc-testnet.publicnode.com
+    - https://data-seed-prebsc-1-s1.bnbchain.org:8545
     - http: https://bsc-testnet.drpc.org
 bsquared:
   blockExplorers:
