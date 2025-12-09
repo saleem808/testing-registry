@@ -2,6 +2,7 @@ kasplextestnet:
   type: collateral
   token: "0x62a331a0582FEbb081863F6773b8510A7D71B0a6"
   decimals: 18
+  scale: 1
   owner: "0x1900c5b15268f13bb4e462f54f5edd6834c47348"
   interchainSecurityModule:
     type: staticAggregationIsm
@@ -20,6 +21,7 @@ sepolia:
   type: synthetic
   owner: "0x1900c5b15268f13bb4e462f54f5edd6834c47348"
   decimals: 18
+  scale: 1
   interchainSecurityModule:
     type: staticAggregationIsm
     modules:
