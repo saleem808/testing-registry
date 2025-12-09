@@ -38,7 +38,7 @@ basesepolia:
   type: collateral
   token: "0xB6F08394a2f570C5a98F4D5a787ec263Ddfad2de"
   owner: "0x1900c5b15268f13bb4e462f54f5edd6834c47348"
-  decimals: 6
+  decimals: 18
   scale: 1000000000000
   interchainSecurityModule:
     type: staticAggregationIsm
