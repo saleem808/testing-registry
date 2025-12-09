@@ -783,7 +783,7 @@ basesepolia:
       name: BaseScan
       url: https://sepolia.basescan.org
   blocks:
-    confirmations: 5
+    confirmations: 2
     estimateBlockTime: 3
     reorgPeriod: 1
   chainId: 84532
