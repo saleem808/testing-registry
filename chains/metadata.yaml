@@ -1156,7 +1156,7 @@ bsctestnet:
   rpcUrls:
     - http: https://bsc-testnet-rpc.publicnode.com
     - http: https://bsc-testnet.publicnode.com
-    - https://data-seed-prebsc-1-s1.bnbchain.org:8545
+    - http: https://data-seed-prebsc-1-s1.bnbchain.org:8545
     - http: https://bsc-testnet.drpc.org
 bsquared:
   blockExplorers:
