@@ -56,3 +56,22 @@ kasplextestnet:
   proxyAdmin:
     owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
     address: "0x778D4965811Db90Cd3e08712de48387e069B5e48"
+sepolia:
+  decimals: 18
+  name: USDT
+  type: collateral
+  token: "0xa4d5C0851301bbF19dFfd97fC58C1Ff7ab27Aea8"
+  owner: "0x1900c5b15268f13bb4e462f54f5edd6834c47348"
+  symbol: USDT
+  interchainSecurityModule:
+    type: staticAggregationIsm
+    modules:
+      - type: trustedRelayerIsm
+        relayer: "0x1900c5b15268f13bb4e462f54f5edd6834c47348"
+      - owner: "0x1900c5b15268f13bb4e462f54f5edd6834c47348"
+        type: defaultFallbackRoutingIsm
+        domains: {}
+    threshold: 1
+  proxyAdmin:
+    owner: "0x778D4965811Db90Cd3e08712de48387e069B5e48"
+    address: "0x9f922D4b86E2510265661d8998963c993F681855"
