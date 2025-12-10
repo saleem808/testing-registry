@@ -5925,20 +5925,32 @@ USDC/base-optimism:
       symbol: USDC
 USDC/bsc-kasplex:
   tokens:
-    - addressOrDenom: "0x001cfbd182c74107B70bfcbbCD709E1d73cde0f2"
-      chainName: kasplex
-      connections:
-        - token: ethereum|bsc|0xe04012Ae5f6b1550E20aB63bE29807003e7a4Cd7
-      decimals: 18
-      name: USD Coin
-      standard: EvmHypSynthetic
-      symbol: USDC
     - addressOrDenom: "0xe04012Ae5f6b1550E20aB63bE29807003e7a4Cd7"
       chainName: bsc
       collateralAddressOrDenom: "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
       connections:
         - token: ethereum|kasplex|0x001cfbd182c74107B70bfcbbCD709E1d73cde0f2
+        - token: ethereum|base|0x7D3A287d1DA851B8479c8c0dEDeeBA6E73BD68CE
       decimals: 18
+      name: USD Coin
+      standard: EvmHypCollateral
+      symbol: USDC
+    - addressOrDenom: "0x001cfbd182c74107B70bfcbbCD709E1d73cde0f2"
+      chainName: kasplex
+      connections:
+        - token: ethereum|bsc|0xe04012Ae5f6b1550E20aB63bE29807003e7a4Cd7
+        - token: ethereum|base|0x7D3A287d1DA851B8479c8c0dEDeeBA6E73BD68CE
+      decimals: 18
+      name: USD Coin
+      standard: EvmHypSynthetic
+      symbol: USDC
+    - addressOrDenom: "0x7D3A287d1DA851B8479c8c0dEDeeBA6E73BD68CE"
+      chainName: base
+      collateralAddressOrDenom: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      connections:
+        - token: ethereum|bsc|0xe04012Ae5f6b1550E20aB63bE29807003e7a4Cd7
+        - token: ethereum|kasplex|0x001cfbd182c74107B70bfcbbCD709E1d73cde0f2
+      decimals: 6
       name: USD Coin
       standard: EvmHypCollateral
       symbol: USDC
