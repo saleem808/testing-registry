@@ -2522,6 +2522,10 @@ ethereum:
       family: routescan
       name: Ethereum Explorer
       url: https://1.routescan.io
+  blocks:
+    confirmations: 2
+    estimateBlockTime: 13
+    reorgPeriod: 15
   chainId: 1
   deployer:
     name: Abacus Works
