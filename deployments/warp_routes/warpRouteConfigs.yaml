@@ -7745,6 +7745,37 @@ USDT/bsc-prom:
       name: Tether USD
       standard: EvmHypSynthetic
       symbol: USDT
+USDT/bsctestnet-kasplextestnet-basesepolia:
+  tokens:
+    - addressOrDenom: "0x552F28bd91106bA1EE5d44cc2324cfe58ddFcE8E"
+      chainName: kasplextestnet
+      connections:
+        - token: ethereum|bsctestnet|0x41269888F8c51F35CB532Ac20856D288ec6e0644
+        - token: ethereum|basesepolia|0x1AbcD0a143595Db06f69926667F1BBC2E7Ef70c7
+      decimals: 18
+      name: USDT
+      standard: EvmHypSynthetic
+      symbol: USDT
+    - addressOrDenom: "0x41269888F8c51F35CB532Ac20856D288ec6e0644"
+      chainName: bsctestnet
+      collateralAddressOrDenom: "0xb97aDD318e75F98972f95323ce0A035E31784c4E"
+      connections:
+        - token: ethereum|kasplextestnet|0x552F28bd91106bA1EE5d44cc2324cfe58ddFcE8E
+        - token: ethereum|basesepolia|0x1AbcD0a143595Db06f69926667F1BBC2E7Ef70c7
+      decimals: 18
+      name: Tether USD
+      standard: EvmHypCollateral
+      symbol: USDT
+    - addressOrDenom: "0x1AbcD0a143595Db06f69926667F1BBC2E7Ef70c7"
+      chainName: basesepolia
+      collateralAddressOrDenom: "0xB6F08394a2f570C5a98F4D5a787ec263Ddfad2de"
+      connections:
+        - token: ethereum|kasplextestnet|0x552F28bd91106bA1EE5d44cc2324cfe58ddFcE8E
+        - token: ethereum|bsctestnet|0x41269888F8c51F35CB532Ac20856D288ec6e0644
+      decimals: 6
+      name: USDT
+      standard: EvmHypCollateral
+      symbol: USDT
 USDT/eclipsemainnet-ethereum-solanamainnet:
   tokens:
     - addressOrDenom: 5g5ujyYUNvdydwyDVCpZwPpgYRqH5RYJRi156cxyE3me
