@@ -1,11 +1,7 @@
 basesepolia:
-  decimals: 6
-  name: USDT
   type: collateral
-  token: "0xB6F08394a2f570C5a98F4D5a787ec263Ddfad2de"
+  token: "0x5365933D533b127aEbF845777e6fD6AE2A942f58"
   owner: "0x1900c5b15268f13bb4e462f54f5edd6834c47348"
-  scale: 1000000000000
-  symbol: USDT
   interchainSecurityModule:
     type: staticAggregationIsm
     modules:
@@ -19,12 +15,9 @@ basesepolia:
     owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
     address: "0xa2397c416E0188733BF96F8ed7F87F2526D3B221"
 bsctestnet:
-  decimals: 18
-  name: USDT
   type: collateral
   token: "0xb97aDD318e75F98972f95323ce0A035E31784c4E"
   owner: "0x1900c5b15268f13bb4e462f54f5edd6834c47348"
-  symbol: USDT
   interchainSecurityModule:
     type: staticAggregationIsm
     modules:
@@ -38,12 +31,9 @@ bsctestnet:
     owner: "0xEF8c1c2f20fd11d0844b6b0B40EB85D1364e7384"
     address: "0x6B02A17d833830845D435cfb94568298AEa91d89"
 kasplextestnet:
-  decimals: 18
-  name: USDT
   isNft: false
   type: synthetic
   owner: "0x1900c5b15268f13bb4e462f54f5edd6834c47348"
-  symbol: USDT
   interchainSecurityModule:
     type: staticAggregationIsm
     modules:
@@ -56,22 +46,3 @@ kasplextestnet:
   proxyAdmin:
     owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
     address: "0x778D4965811Db90Cd3e08712de48387e069B5e48"
-sepolia:
-  decimals: 18
-  name: USDT
-  type: collateral
-  token: "0xa4d5C0851301bbF19dFfd97fC58C1Ff7ab27Aea8"
-  owner: "0x1900c5b15268f13bb4e462f54f5edd6834c47348"
-  symbol: USDT
-  interchainSecurityModule:
-    type: staticAggregationIsm
-    modules:
-      - type: trustedRelayerIsm
-        relayer: "0x1900c5b15268f13bb4e462f54f5edd6834c47348"
-      - owner: "0x1900c5b15268f13bb4e462f54f5edd6834c47348"
-        type: defaultFallbackRoutingIsm
-        domains: {}
-    threshold: 1
-  proxyAdmin:
-    owner: "0x778D4965811Db90Cd3e08712de48387e069B5e48"
-    address: "0x9f922D4b86E2510265661d8998963c993F681855"
