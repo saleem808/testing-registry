@@ -11,28 +11,27 @@ requiredHook:
     - beneficiary: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
       maxProtocolFee: "1000000000000000000"
       owner: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
-      protocolFee: "0"
+      protocolFee: "25000000000000000"
       type: protocolFee
     - beneficiary: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
       oracleConfig:
+        base:
+          gasPrice: "5087043"
+          tokenDecimals: 18
+          tokenExchangeRate: "11000000000"
         bsc:
           gasPrice: "50000000"
           tokenDecimals: 18
-          tokenExchangeRate: "3201495446"
+          tokenExchangeRate: "2945813784"
         kasplex:
           gasPrice: "2001000000000"
           tokenDecimals: 18
-          tokenExchangeRate: "200353"
-        basesepolia:
-          gasPrice: "2001000000000"
-          tokenDecimals: 6
-          tokenExchangeRate: "1000000"
+          tokenExchangeRate: "166655"
       oracleKey: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
       overhead:
+        base: 75000
         bsc: 75000
         kasplex: 75000
-        basesepolia: 75000
       owner: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
       type: interchainGasPaymaster
   type: aggregationHook
-
