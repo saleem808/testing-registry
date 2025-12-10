@@ -2,8 +2,8 @@ basesepolia:
   decimals: 6
   type: collateral
   token: "0xB6F08394a2f570C5a98F4D5a787ec263Ddfad2de"
-  scale: 1000000000000
   owner: "0x1900c5b15268f13bb4e462f54f5edd6834c47348"
+  scale: 1000000000000
   interchainSecurityModule:
     type: staticAggregationIsm
     modules:
@@ -20,8 +20,8 @@ bsctestnet:
   decimals: 18
   type: collateral
   token: "0xb97aDD318e75F98972f95323ce0A035E31784c4E"
-  scale: 1
   owner: "0x1900c5b15268f13bb4e462f54f5edd6834c47348"
+  scale: 1
   interchainSecurityModule:
     type: staticAggregationIsm
     modules:
@@ -38,8 +38,8 @@ kasplextestnet:
   decimals: 18
   isNft: false
   type: synthetic
-  scale: 1
   owner: "0x1900c5b15268f13bb4e462f54f5edd6834c47348"
+  scale: 1
   interchainSecurityModule:
     type: staticAggregationIsm
     modules:
