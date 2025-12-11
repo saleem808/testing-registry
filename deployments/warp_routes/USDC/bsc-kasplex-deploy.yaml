@@ -56,3 +56,23 @@ base:
   proxyAdmin:
     owner: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
     address: "0x2459De09233427aA7F969ae730718a3912C0DBa5"
+ethereum:
+  decimals: 6
+  name: USD Coin
+  type: collateral
+  token: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+  owner: "0xae44946077d5c32ffbdccf97dddda689904caaaa"
+  scale: 1000000000000
+  symbol: USDC
+  interchainSecurityModule:
+    type: staticAggregationIsm
+    modules:
+      - type: trustedRelayerIsm
+        relayer: "0xae44946077d5c32ffbdccf97dddda689904caaaa"
+      - owner: "0xae44946077d5c32ffbdccf97dddda689904caaaa"
+        type: defaultFallbackRoutingIsm
+        domains: {}
+    threshold: 1
+  proxyAdmin:
+    owner: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
+    address: "0xF7E7Bc8cB356419cb7BCcd7F0C4Ede0d078Bb5f2"
