@@ -16,17 +16,17 @@ requiredHook:
     - beneficiary: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
       oracleConfig:
         base:
-          gasPrice: "5087043"
+          gasPrice: "1327120"
           tokenDecimals: 18
           tokenExchangeRate: "11000000000"
         bsc:
           gasPrice: "50000000"
           tokenDecimals: 18
-          tokenExchangeRate: "2945813784"
+          tokenExchangeRate: "2983999148"
         kasplex:
           gasPrice: "2001000000000"
           tokenDecimals: 18
-          tokenExchangeRate: "166655"
+          tokenExchangeRate: "164676"
       oracleKey: "0xaE44946077D5C32FFBDcCF97ddDdA689904caAAa"
       overhead:
         base: 75000
@@ -36,20 +36,3 @@ requiredHook:
       type: interchainGasPaymaster
   type: aggregationHook
 
-ethereum:
-  staticMerkleRootMultisigIsmFactory: "0x5c9D924c71eDe2A028c05261E4517D07446482De"
-  staticMessageIdMultisigIsmFactory: "0x63352260DE96135Dc72459bCAbAcADab893CF507"
-  staticAggregationIsmFactory: "0x946123e76Ec4B9dE2F26dBeBefb47c12b640d1e1"
-  staticAggregationHookFactory: "0xFCf253B6eedE2C67e1998d8A31BC47c6eD2257D6"
-  domainRoutingIsmFactory: "0x8cdAC612B9A285ab1a4d1D64bb46e83D07Bf016E"
-  staticMerkleRootWeightedMultisigIsmFactory: "0xc0CCfB0ae60A29928Bd0020FEbe08cFa8fc0c5c2"
-  staticMessageIdWeightedMultisigIsmFactory: "0x3042F93E30DC75e98742444731d2458B57A98894"
-  proxyAdmin: "0x4a59dBfEC305ca5dfBe181819dcd9B4F342765DB"
-  mailbox: "0xc23B3d52F7F84F20F9c582471cDEf05a800081f4"
-  interchainAccountRouter: ""
-  validatorAnnounce: ""
-  testRecipient: ""
-  merkleTreeHook: "0x001cfbd182c74107B70bfcbbCD709E1d73cde0f2"
-  interchainGasPaymaster: "0xC951D151cDe6F0d7d5A5d36A617E78bAD9CCEf97"
-  trustedRelayerIsm: "0xBE6d930888c45fDF925Daf4233266fD2acbF21E7"
-  storageGasOracle: "0xe5B379E5833c774d9E0e1A49D1B63F6c68C3a675"
