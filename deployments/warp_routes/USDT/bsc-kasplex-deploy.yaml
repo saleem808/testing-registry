@@ -43,7 +43,7 @@ ethereum:
   token: "0xdAC17F958D2ee523a2206206994597C13D831ec7"
   owner: "0xae44946077d5c32ffbdccf97dddda689904caaaa"
   scale: 1000000000000
-  name: Tether USD
+  symbol: USDT
   interchainSecurityModule:
     type: staticAggregationIsm
     modules:
