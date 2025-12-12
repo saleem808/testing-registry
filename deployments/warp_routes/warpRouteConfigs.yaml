@@ -7706,21 +7706,34 @@ USDT/basesepolia-igratest:
       symbol: USDT
 USDT/bsc-kasplex:
   tokens:
-    - addressOrDenom: "0xBbC4a4Ab915E04a833aefa872A6d19eCac372134"
-      chainName: kasplex
-      connections:
-        - token: ethereum|bsc|0xbb9F2Dc93C00e818eECb4A12B661fd2c9817E301
-      decimals: 18
-      logoURI: /deployments/warp_routes/USDT/logo.svg
-      name: Tether USD
-      standard: EvmHypSynthetic
-      symbol: USDT
     - addressOrDenom: "0xbb9F2Dc93C00e818eECb4A12B661fd2c9817E301"
       chainName: bsc
       collateralAddressOrDenom: "0x55d398326f99059fF775485246999027B3197955"
       connections:
         - token: ethereum|kasplex|0xBbC4a4Ab915E04a833aefa872A6d19eCac372134
+        - token: ethereum|ethereum|0x63692627A88068D50Ba5bbb0225C16ebD007fEcD
       decimals: 18
+      logoURI: /deployments/warp_routes/USDT/logo.svg
+      name: Tether USD
+      standard: EvmHypCollateral
+      symbol: USDT
+    - addressOrDenom: "0xBbC4a4Ab915E04a833aefa872A6d19eCac372134"
+      chainName: kasplex
+      connections:
+        - token: ethereum|bsc|0xbb9F2Dc93C00e818eECb4A12B661fd2c9817E301
+        - token: ethereum|ethereum|0x63692627A88068D50Ba5bbb0225C16ebD007fEcD
+      decimals: 18
+      logoURI: /deployments/warp_routes/USDT/logo.svg
+      name: Tether USD
+      standard: EvmHypSynthetic
+      symbol: USDT
+    - addressOrDenom: "0x63692627A88068D50Ba5bbb0225C16ebD007fEcD"
+      chainName: ethereum
+      collateralAddressOrDenom: "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+      connections:
+        - token: ethereum|bsc|0xbb9F2Dc93C00e818eECb4A12B661fd2c9817E301
+        - token: ethereum|kasplex|0xBbC4a4Ab915E04a833aefa872A6d19eCac372134
+      decimals: 6
       logoURI: /deployments/warp_routes/USDT/logo.svg
       name: Tether USD
       standard: EvmHypCollateral
