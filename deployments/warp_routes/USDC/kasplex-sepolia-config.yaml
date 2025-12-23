@@ -4,17 +4,17 @@ tokens:
     decimals: 6
     symbol: USDC
     name: USD Coin
-    addressOrDenom: "0xc4Ba6A7Ed01025cBB624C1b1761027914A82EAD9"
+    addressOrDenom: "0x0F807089C22cEDEcf44933c019BCCE46628CC916"
     collateralAddressOrDenom: "0x7b225c27d66949D4f5541f118F7B948b0fc2aB51"
     connections:
-      - token: ethereum|basesepolia|0xa4d5C0851301bbF19dFfd97fC58C1Ff7ab27Aea8
+      - token: ethereum|sepolia|0x7DFe6641371F1C21Ce997a2A0C90A5122E3Abac6
     logoURI: /deployments/warp_routes/USDC/logo.svg
-  - chainName: basesepolia
+  - chainName: sepolia
     standard: EvmHypSynthetic
     decimals: 6
     symbol: USDC
     name: USD Coin
-    addressOrDenom: "0xa4d5C0851301bbF19dFfd97fC58C1Ff7ab27Aea8"
+    addressOrDenom: "0x7DFe6641371F1C21Ce997a2A0C90A5122E3Abac6"
     connections:
-      - token: ethereum|kasplextestnet|0xc4Ba6A7Ed01025cBB624C1b1761027914A82EAD9
+      - token: ethereum|kasplextestnet|0x0F807089C22cEDEcf44933c019BCCE46628CC916
     logoURI: /deployments/warp_routes/USDC/logo.svg
