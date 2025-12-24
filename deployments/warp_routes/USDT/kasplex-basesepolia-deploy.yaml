@@ -2,15 +2,6 @@ basesepolia:
   type: collateral
   token: "0x5365933D533b127aEbF845777e6fD6AE2A942f58"
   owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
-  interchainSecurityModule:
-    type: staticAggregationIsm
-    modules:
-      - type: trustedRelayerIsm
-        relayer: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
-      - owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
-        type: defaultFallbackRoutingIsm
-        domains: {}
-    threshold: 1
   proxyAdmin:
     owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
     address: "0x6fb15bb009A1F80277693c5D30Ba6A16A519e6C8"
@@ -18,15 +9,6 @@ kasplextestnet:
   isNft: false
   type: synthetic
   owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
-  interchainSecurityModule:
-    type: staticAggregationIsm
-    modules:
-      - type: trustedRelayerIsm
-        relayer: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
-      - owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
-        type: defaultFallbackRoutingIsm
-        domains: {}
-    threshold: 1
   proxyAdmin:
     owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
     address: "0x4f594B1C1EF8d8546fE3dc9c0A6a9C3eAfdb342a"
