@@ -8050,19 +8050,19 @@ USDT/incentiv:
       symbol: USDT
 USDT/kasplex-basesepolia:
   tokens:
-    - addressOrDenom: "0x46dAC32BBce9da2eC04dE81c9a741CB9ecE8E331"
+    - addressOrDenom: "0x7E834a631a294e32FF7fDC5814dB5393E7aF58CC"
       chainName: kasplextestnet
       connections:
-        - token: ethereum|basesepolia|0x7eedC40a3fcb507dcE07330398Dc65C460B03865
+        - token: ethereum|basesepolia|0x150F5215DB18127a1d80765176B76d411f02a56F
       decimals: 18
       name: USDT
       standard: EvmHypSynthetic
       symbol: USDT
-    - addressOrDenom: "0x7eedC40a3fcb507dcE07330398Dc65C460B03865"
+    - addressOrDenom: "0x150F5215DB18127a1d80765176B76d411f02a56F"
       chainName: basesepolia
       collateralAddressOrDenom: "0x5365933D533b127aEbF845777e6fD6AE2A942f58"
       connections:
-        - token: ethereum|kasplextestnet|0x46dAC32BBce9da2eC04dE81c9a741CB9ecE8E331
+        - token: ethereum|kasplextestnet|0x7E834a631a294e32FF7fDC5814dB5393E7aF58CC
       decimals: 18
       name: USDT
       standard: EvmHypCollateral
