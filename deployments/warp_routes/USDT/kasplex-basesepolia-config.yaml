@@ -4,15 +4,15 @@ tokens:
     decimals: 18
     symbol: USDT
     name: USDT
-    addressOrDenom: "0x7E834a631a294e32FF7fDC5814dB5393E7aF58CC"
+    addressOrDenom: "0x5B89DdA422Ed47979B08727aD5d9d7A3514D259B"
     connections:
-      - token: ethereum|basesepolia|0x150F5215DB18127a1d80765176B76d411f02a56F
+      - token: ethereum|basesepolia|0x23B192092aEA67A1Bb0C5968a81b7677B1bc1eF7
   - chainName: basesepolia
     standard: EvmHypCollateral
     decimals: 18
     symbol: USDT
     name: USDT
-    addressOrDenom: "0x150F5215DB18127a1d80765176B76d411f02a56F"
+    addressOrDenom: "0x23B192092aEA67A1Bb0C5968a81b7677B1bc1eF7"
     collateralAddressOrDenom: "0x5365933D533b127aEbF845777e6fD6AE2A942f58"
     connections:
-      - token: ethereum|kasplextestnet|0x7E834a631a294e32FF7fDC5814dB5393E7aF58CC
+      - token: ethereum|kasplextestnet|0x5B89DdA422Ed47979B08727aD5d9d7A3514D259B
